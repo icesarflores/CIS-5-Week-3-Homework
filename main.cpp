@@ -10,7 +10,9 @@ int main() {
 
   string name = "Cesar Flores";
   int age = 49;
+  int credits = 12;
   double height_m = 1.70;
+  double gpa = 3.1;
   char initial = 'C';
   bool student = 1;
 
@@ -26,8 +28,14 @@ int main() {
   cout << "=== About Me ===\n";
   cout << "Name: " << name << endl
       << "Age: " << age << endl
-      << "Credits: " << " " << endl
-      << "GPA:"  << " " << endl
+      << "Credits: " << credits << endl
+      << "GPA:"  << gpa << endl
       << "Year: " << CURRENT_YEAR << endl;
+  
+  cout << endl;
+  cout << name << " is taking " << credits << " credits in Year " << CURRENT_YEAR << ", " << "with a " << gpa << " gpa." << endl;
+  cout << endl;  
+  
+  
   return 0;
 }
